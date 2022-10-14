@@ -1,5 +1,7 @@
 \C blog
 
+DROP TABLE IF EXISTS posts;
+
 CREATE TABLE posts(
     id INT,
     user_id INT NOT NULL,
